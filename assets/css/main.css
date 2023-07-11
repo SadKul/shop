@@ -1001,9 +1001,27 @@ i.home-product-item__like-icon-fill{
     transform: scale(0.7);
     transform-origin: right;
     color: #D5D5D5;
+    margin-left: auto;
 }
 
-.home-product-item__origin {}
+.home-product-item_star-gold{
+    color: var(--star-gold-color);
+}
+
+.home-product-item__sold{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-left: 6px
+}
+
+.home-product-item__origin {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #595959;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
 
 .home-product-item__brand {}
 
